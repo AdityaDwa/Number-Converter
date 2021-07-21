@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="cover">
+        <div class="converter-box">
+            <section class="input-section">
+                <select class="input-numberSystem">
+                    <option value="bin">Binary</option>
+                    <option value="qui">Quinary</option>
+                    <option value="oct">Octal</option>
+                    <option value="dec">Decimal</option>
+                    <option value="hex">Hexadecimal</option>
+                </select>
+                <input type="text" placeholder="Enter your number">
+            </section>
+            <section class="output-section">
+                <select class="output-numberSystem">
+                    <option value="bin">Binary</option>
+                    <option value="qui">Quinary</option>
+                    <option value="oct">Octal</option>
+                    <option value="dec">Decimal</option>
+                    <option value="hex">Hexadecimal</option>
+                </select>
+                <div class="output-container">Your converted number</div>
+            </section>
+            <div class="btn-container">
+                <button>Convert</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
